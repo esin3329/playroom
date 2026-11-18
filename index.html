@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PLAYROOM · 게임 전시관</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<header><span class="brand"><svg viewBox="0 0 13 10" aria-hidden="true"><path fill="currentColor" d="M2 0h1v1H2zm8 0h1v1h-1zM3 1h1v1H3zm6 0h1v1H9zM3 2h7v1h1v1h1v1h1v3h-2V6h-1v2H3V6H2v2H0V5h1V4h1V3h1zm1 2v1h1V4zm4 0v1h1V4zM3 8h2v1H3zm5 0h2v1H8z" fill-rule="evenodd"/></svg>PLAYROOM</span><a href="#collection">게임 전시관</a></header>
+<main>
+<section class="hero" aria-labelledby="featured"><div class="intro"><div class="kicker"><b>✦</b> FEATURED GAME</div><h1 id="featured">라스트엠버</h1><button class="cta" data-game="last-ember">작품 살펴보기 <span>›</span></button></div><img class="scene" src="moon-forest.webp" alt="달빛이 비치는 보랏빛 숲과 절벽 위의 여행자"></section>
+<section id="collection"><h2>게임 컬렉션</h2><div class="grid" id="games"></div></section>
+</main><footer>PLAYROOM <span>전시 이미지는 임시 일러스트입니다.</span></footer>
+<dialog aria-labelledby="detail-title"><button class="close" aria-label="작품 보기 닫기">×</button><img id="detail-art" alt=""><article><h2 id="detail-title"></h2><a class="cta" id="play" target="_blank" rel="noopener">게임 플레이 <span aria-hidden="true">↗</span></a></article></dialog>
+<script src="games.js"></script>
+</html>
